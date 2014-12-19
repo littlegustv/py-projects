@@ -1,0 +1,27 @@
+Sasha Ratelle
+
+Grade: 13/21
+
+1 - 1/1
+2 - 1/1
+3 - 1/1
+4 - .5/1  -- Missing commas between each ROW
+5 - 1/1
+6 - 1/1
+7 - 1/1
+8 - 0/1  -- Objects that the user added do not appear in the item lists
+9 - 1/1
+10 - 1/1
+11 - 1/1
+12 - 1/1
+13 - 1/1
+14 - 1/1
+15 - 1/1
+16 - 1/1
+17 - .5/1  -- Your code changes the cRow/cColumn BEFORE it checks if the room is locked or not.
+18 - 0/1  -- Commands not implemented
+19 - 0/1  -- Commands not implemented
+20 - 0/1  -- Nothing displays if the user enters something that is not a command
+21 - 0/1  -- No IF statement to check if the user is in the final room or not
+
+-2 For many syntax errors in the code - mostly missing colons and indentation.  Make sure to run your code before handing it in to check for these kinds of errors.

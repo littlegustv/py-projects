@@ -1,0 +1,31 @@
+William O'Malley
+
+Grade: 16/21
+
+1 - 0/1  -- The problem here is you are using "while True", which creates an un-ending loop.  Replace this with something like:
+        for i in range(0,10):  (This will loop 10 times), and it should work properly, and let the rest of the game start.
+2 - 1/1  -- Careful here - right now there are inside the animation loop, but we want them to happen after the loop ends (so they need to be un-indented)
+3 - 1/1
+4 - 1/1
+5 - 1/1
+6 - 1/1
+7 - 1/1
+8 - 0/1  -- The items the user entered are not added in
+9 - 1/1
+10 - 1/1
+11 - 0/1  -- No "Prompt" function
+12 - 0/1  -- Or a "CheckLocked" function
+13 - 1/1
+14 - 1/1
+15 - 1/1  -- (No "Prompt" function, but OK)
+16 - 1/1
+17 - 0/1  -- So, a couple things here:
+    You need to update the "current" variable, you can use this line right at the beginning of the loop:
+        current = room_numbers[cRow][cCol]
+    And to check if a room is locked, you first have to look up the room you are checking in the room_numbers table as well.
+18 - 1/1
+19 - 1/1  -- For "Take", it wasn't working since it was:
+    if command[:3] == "Take":   --- But that compares only the first three letters, and "Take" has 4.
+    if command[:4] == "Take":   --- This works fine
+20 - 0/1
+21 - 1/1

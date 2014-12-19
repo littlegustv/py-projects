@@ -1,0 +1,23 @@
+import urllib
+import re
+
+#site = urllib.urlopen("http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=8022")
+
+nothings = []
+
+next = '90052'
+
+while True:
+
+    nothings.append(next)
+    try:
+        fp = open("./Channel/" + next + ".txt", "r")
+
+        nt = fp.read()
+        print nt
+        next = re.search(r'Next nothing is (\d+)', nt).group(1)
+
+    except:
+        print "Done?"
+        print next
+        break

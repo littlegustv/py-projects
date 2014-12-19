@@ -1,0 +1,27 @@
+Brandon T-L
+
+Grade: 15/21
+
+1 - 0/1  -- No intro animation
+2 - 1/1
+3 - 1/1
+4 - 1/1
+5 - 1/1
+6 - 1/1
+7 - 0/1
+8 - 1/1
+9 - 1/1
+10 - 1/1
+11 - .5/1  -- Prompt function is incomplete
+12 - .5/1  -- CheckLocked function is incomplete
+13 - 1/1
+14 - 1/1
+15 - 1/1  -- Doesn't use Prompt() function, but OK
+16 - 1/1
+17 - 0/1  -- Only one direction command implemented partially
+18 - 1/1
+19 - 1/1
+20 - 0/1
+21 - .5/1  -- Only checks this if they entered an invalid command - should ALWAYS check
+
+-1 for multiple syntax errors before I could get it running

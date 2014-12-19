@@ -1,0 +1,19 @@
+import random
+import time
+import msvcrt
+
+road = "######################----------################"
+car = "@"
+current = 27
+
+while True:
+    print road[:current] + car + road[current:]
+
+    r = random.randint(0,10)
+
+    if r < 3:
+        road = road[1:] + road[:1]
+    elif r > 7:
+        road = road[len(road) - 1:] + road[:len(road) - 1]
+
+    time.sleep(0.1)

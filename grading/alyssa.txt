@@ -1,0 +1,27 @@
+Alyssa Rivard
+
+Grade: 20.5/21
+
+1 - 1/1
+2 - 1/1
+3 - 1/1
+4 - 1/1
+5 - 1/1
+6 - 1/1
+7 - 1/1
+8 - 1/1
+9 - 1/1
+10 - 1/1
+11 - 1/1
+12 - 1/1
+13 - 1/1
+14 - 1/1
+15 - 1/1
+16 - 1/1
+17 - 1/1
+18 - 1/1
+19 - 1/1
+20 - 1/1
+21 - .5/1  -- This only checks if they don't enter a valid command (should check each time, make it an IF instead of an ELIF to fix this)
+
+Excellent Work!
